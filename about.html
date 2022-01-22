@@ -4,7 +4,110 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <title>About hajun</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="about.css" />
+
+    <!-- web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon2/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon2//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon2//favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon//site.webmanifest" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="app-bar">
+        <div>
+          <img src="img/logo2_no_bg.png" href="#" alt="hajun's purple logo" />
+        </div>
+        <nav>
+          <ol>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html" class="active">About me</a></li>
+            <li><a href="./study.html">Study</a></li>
+            <li>
+              <a
+                href="https://kdt-gitlab.elice.io/denver-hajun/"
+                target="_blank"
+                >Gitlab
+                <img src="img/new_tab.png" alt="new_tab icon" />
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- for css, empty div -->
+      <div></div>
+
+      <!--  -->
+      <div class="container" style="padding-top: 30px; max-width: 1000px">
+        <div
+          class="card-group"
+          style="display: flex; flex-wrap: wrap; justify-content: center"
+        >
+          <div class="card" style="margin: 50px">
+            <p class="card-image">
+              <img src="./img/wine.png" alt="card image" />
+            </p>
+            <p class="card-title">취미</p>
+            <p class="card-description">와인 테이스팅(입문)</p>
+          </div>
+          <div class="card" style="margin: 50px; box-shadow: none">
+            <p class="card-image">
+              <img src="./img/prettier.png" alt="card image" />
+            </p>
+            <p class="card-title">특기</p>
+            <p class="card-description">쓸데없는 거 예쁘게 꾸미려고 집착하기</p>
+          </div>
+          <div class="card" style="margin: 50px">
+            <p class="card-image">
+              <img src="./img/latte.png" alt="card image" />
+            </p>
+            <p class="card-title">좋아하는 음료</p>
+            <p class="card-description">고암길카페 흑임자라떼</p>
+          </div>
+          <div class="card" style="margin: 50px">
+            <p class="card-image">
+              <img src="./img/movie.png" alt="card image" />
+            </p>
+            <p class="card-title">최근 감상한 영화</p>
+            <p class="card-description">스파이더맨: 노 웨이 홈</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="dividing-line"></div>
+      <div class="copyright">
+        <p>Copyright @명하준, 2022 | All rights reserved</p>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -88,7 +88,7 @@ body > main{
 }
 
 body main div{
-    width: 1000px;
+    max-width: 1000px;
 }
 
 body main div div.greetings{
