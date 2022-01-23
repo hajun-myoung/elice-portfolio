@@ -1,6 +1,10 @@
 # Portfolio
 
- 엘리스 코드 2주차 과제를 겸하여 만든 [포트폴리오 페이지](http://denver-hajun.kdt-gitlab.elice.io/portfolio/)입니다
+ 엘리스 코드 2주차 과제를 겸하여 만든 포트폴리오 페이지입니다
+
+- ~~[gitlab에서 보기](http://denver-hajun.kdt-gitlab.elice.io/portfolio/)~~
+
+- [github에서 보기](https://hajun-myoung.github.io/elice-portfolio/)
 
 ## Update log
 
