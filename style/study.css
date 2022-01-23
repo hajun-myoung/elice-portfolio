@@ -87,32 +87,17 @@ body > main{
     align-items: center;
 }
 
-body main div{
-    max-width: 1000px;
-}
-
-body main div div.greetings{
-    margin-top: 100px;
-}
-
-body main div div.greetings p{
-    font-size: 30px;
-
-    margin-left: 10px;
-}
-
-body main div div.greetings h1{
-    font-size: 100px;
-
-    margin: 20px 0;
-}
-
 body > main > div{
-    padding-top: 30px;
     max-width: 1000px
 }
 
 body main div h2{
+    display: inline-block;
+    
+    width: 580px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+
     font-size: 32px;
 }
 
@@ -171,14 +156,6 @@ body > main > div > div > div > p.card-image{
 
 body > main > div > div > div > p.card-image > img{
     width: 40%;
-}
-
-body > main > div:nth-child(3){
-    padding: 80px 0;
-}
-
-body main div:nth-child(3) h2{
-    font-size: 32px;
 }
 
 /* footer */
