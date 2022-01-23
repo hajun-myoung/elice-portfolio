@@ -160,10 +160,11 @@ body > main > div > div > div > p.card-image > img{
 }
 
 body > main > div:nth-child(3){
-    padding: 80px 0;
+    padding: 0;
 }
 
 body main div:nth-child(3) h2{
+    margin-top: 80px;
     font-size: 32px;
 }
 
