@@ -4,7 +4,7 @@ head, body{
 }
 
 body{
-    background: url('./img/background.png') no-repeat;
+    background: url('../img/background.png') no-repeat;
     background-size: 100%;
 }
 
@@ -107,29 +107,44 @@ body main div div.greetings h1{
     margin: 20px 0;
 }
 
-body > main > div:nth-child(2){
-    padding: 170px 0 50px 0;
+body > main > div{
+    padding-top: 30px;
+    max-width: 1000px
 }
 
-body main div:nth-child(2) h2{
+body main div h2{
     font-size: 32px;
 }
 
-body main div:nth-child(2) div.card-group{
+body main div div.card-group{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-body main div:nth-child(2) div div.card{
+body main div div div.card{
     width: 300px;
     height: 400px;
     
+    margin: 50px;
     padding: 10px;
     
     background: #EEF0F4;
     border-radius: 15%;
     box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+}
+
+@media only screen and (min-width: 841px){
+    body > main > div > div > div:nth-child(2){
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    body > main > div > div > div:nth-child(1){
+        box-shadow: none;
+    }
 }
 
 body > main > div > div > div > p.card-title{
