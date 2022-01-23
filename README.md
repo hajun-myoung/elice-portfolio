@@ -5,6 +5,20 @@
 
 ## Update log
 
+## Reference
+
+- 백그라운드 이미지 : 직접 제작
+
+- Neumorphism Design : [Generator 사이트](https://neumorphic.design/) 이용
+
+- 카드 그림
+
+  - 토끼 : Copyright [@Elice-code](https://elice.io/)
+
+  - 깃 로고 : Copyright [@Git](https://git-scm.com/)
+
+  - Prettier 로고 : Copyright [@Prettier](https://prettier.io/)
+
 ## Design Idea
 
 - PC를 기준으로 디자인
