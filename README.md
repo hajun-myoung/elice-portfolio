@@ -1,7 +1,6 @@
 # Portfolio
 
- 엘리스 코드 2주차 과제를 겸하여 만든 [포트폴리오 페이지](https://hajun-myoung.github.io/elice-portfolio/)입니다
- ~~[깃랩에 올리면 쓰기 위한 백업용 링크](http://denver-hajun.kdt-gitlab.elice.io/portfolio/)~~
+ 엘리스 코드 2주차 과제를 겸하여 만든 [포트폴리오 페이지](http://denver-hajun.kdt-gitlab.elice.io/portfolio/)입니다
 
 ## Update log
 
